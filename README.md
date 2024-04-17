@@ -6,7 +6,7 @@ entrepreneur levels to create your own business and make money, with a friendly 
 ## How to run
 **obs:** you will need first to install NodeJS and Docker
 
-1- Clone the [backend repository]()
+1- Clone the [backend repository](https://github.com/CaioCesarPS/pizzashop-backend)
 
 2- Inside backend folder in ```src/db/seed.ts```, if you want to create your mocked restaurant with orders and fake data you need to change the lines 57 and 58, the email you can use a fake email or your real email.
 ![alt text](./public/fakeData.png)
