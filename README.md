@@ -35,3 +35,13 @@ entrepreneur levels to create your own business and make money, with a friendly 
 - [ ] Client page to be able the clients to order things into establishment.
 - [ ] Deliver page.
 - [ ] Refactor the Orders page. (infinity scroll or tabs with diferent status)
+
+# Product page
+
+- it should be able to create a category
+- it should be able to create a product.
+- it should be able to edit a product.
+- it should be able to delete a product.
+- it should be able to put price in cents on product.
+- it should be able to put a photo in the product.
+- it should be able to put limited quantity of a product.
