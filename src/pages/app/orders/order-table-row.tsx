@@ -28,8 +28,6 @@ export function OrderTableRow({ order }: OrderTableRowProps) {
   const [isDetailsOpen, setIsDetailsOpen] = useState(false);
   const queryClient = useQueryClient();
 
-  console.log('is details open table row', isDetailsOpen)
-
   function updateOrderStatusOnCache(orderId: string, status: OrderStatus) {
     const ordersListCache = queryClient.getQueriesData<GetOrdersResponse>({
       queryKey: ["orders"],
